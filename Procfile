@@ -1,1 +1,1 @@
-web: gunicorn script.wsgi --log-file -
+web: gunicorn processWebhook:app --log-file -
